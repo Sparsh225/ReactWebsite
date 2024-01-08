@@ -7,7 +7,7 @@ import Layout from './assets/Layout.jsx'
 import Home from './assets/Components/Home/Home.jsx'
 import About from './assets/Components/About/About.jsx'
 
-const router=router.createBrowserRouter([
+const router=createBrowserRouter([
     {
       path:"/",
       element:<Layout/>,
